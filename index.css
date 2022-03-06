@@ -1,0 +1,14 @@
+﻿header.masthead {
+	background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(header.jpeg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: #0d6efd , var(--bs-bg-opacity)) !important;
+}
+
