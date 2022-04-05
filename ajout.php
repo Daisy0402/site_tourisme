@@ -16,7 +16,7 @@ if(!isset($_POST["password"])){
 $name_user = $_POST["nom"];
 $firstname_user = $_POST["prenom"];
 $mail_user = $_POST["email"];
-$password_user = $_POST["password"];
+$password_user = password_hash($_POST["password"], PASSWORD_DEFAULT);
 
 try{
     $sql = "INSERT INTO utilisateur(nom,prenom,mail,mdp) VALUES( '$name_user','$firstname_user','$mail_user','$password_user')";

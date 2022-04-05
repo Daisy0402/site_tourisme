@@ -7,8 +7,20 @@
 
 }
 
-.bg-primary {
-    --bs-bg-opacity: 1;
-    background-color: #0d6efd , var(--bs-bg-opacity)) !important;
+
+
+.img-fluid {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
 }
 
+
+.btn-outline-danger {
+    color: #f4623a;
+    border-color:#f4623a;
+}
+
+.btn {
+    font-size: 14px;
+}

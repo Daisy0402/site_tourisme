@@ -1,0 +1,47 @@
+body{
+    background-color: #D7D9DA ;
+}
+
+#voyage-form{
+    padding: 40px;
+    width: 500px;
+    margin: 100px auto 200px;
+    background: white;
+    border-radius: 10px;
+
+}
+
+
+
+.form-control{
+    width: 400px;
+}
+
+#supvoyage-form{
+    padding: 40px;
+    width: 500px;
+    margin: 100px auto 200px;
+    background: white;
+    border-radius: 10px;
+}
+
+.comment{
+    font-style: italic;
+    font-size: 18px;
+    color: #d82c2e;
+    height: 25px;
+}
+
+#modifiervoyage-form{
+    padding: 40px;
+    width: 500px;
+    margin: 100px auto 200px;
+    background: white;
+    border-radius: 10px;
+}
+
+.h1 {
+    font-size: calc(1.375rem + 1.5vw);
+    margin: 200px;
+    text-align: center;
+}

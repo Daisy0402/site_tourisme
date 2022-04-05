@@ -1,0 +1,10 @@
+.g-4, .gy-4 {
+    --bs-gutter-y: 1.5rem;
+    display: contents;
+    vertical-align: middle;
+}
+
+.row-cols-md-3  {
+    margin-top: 100px;
+}
+

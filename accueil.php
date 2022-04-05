@@ -1,0 +1,1 @@
+<h1>Bonjour <?php echo $_SESSION['email'] ?><h1>

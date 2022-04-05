@@ -7,8 +7,4 @@
 
 }
 
-.bg-primary {
-    --bs-bg-opacity: 1;
-    background-color: #0d6efd , var(--bs-bg-opacity)) !important;
-}
 

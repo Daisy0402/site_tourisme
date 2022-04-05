@@ -22,10 +22,10 @@
             </div>
         </nav>
 	<div id="container">
-	<form>
+	<form action= "verification.php" method="post">
 		<h1>Connexion</h1>
-		<label><b>Nom d'utilistaeur</b></label>
-		<input type="text" placeholder="Entrer votre nom d'utilisitaeur" name="username" required>
+		<label><b>Email</b></label>
+		<input type="text" placeholder="Entrer votre email" name="email" required>
 
 		<label for="inputPassword5" class="form-label"><b>Mot de passe</b></label>
 		<input type="password" placeholder="Entrer votre mot de passe" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" name="password" required>

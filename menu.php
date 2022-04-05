@@ -8,7 +8,14 @@
                         <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Destination</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-						<li class="nav-item"><a class="nav-link" href="login.php">SE CONNECTER</a></li>
+                        <?php if(isset($_SESSION['email'])){ ?>
+
+                        <li class="nav-item"><a class="nav-link" href="#">Mon profil</a></li>
+                        <li class="nav-item"><a href="deconnexion.php" class="btn btn-outline-danger">Déconnexion</a> 
+                        <?php } else {?>
+
+						<li class="nav-item"><a class="nav-link" href="login.php">Se connecter</a></li>
+                        <?php } ?>
                     </ul>
                 </div>
             </div>
